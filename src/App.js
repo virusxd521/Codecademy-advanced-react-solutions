@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import { Home } from './pages/Home';
-import { ExerciseTwo } from './pages/ExerciseTwo';
+import { Exercise2 } from './pages/Exercise2';
 
 function App() {
   return (
@@ -9,7 +9,7 @@ function App() {
         <Home />
       </Route>
       <Route path='/exercises/2'>
-        <ExerciseTwo />
+        <Exercise2 />
       </Route>
     </Router>
   );

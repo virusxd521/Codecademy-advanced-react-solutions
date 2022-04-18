@@ -4,7 +4,7 @@ import { IsPrime } from './IsPrime';
 
 import './styles.css';
 
-export function ExerciseTwo() {
+export function Exercise2() {
   const [number, setNumber] = useState(8191);
   const [showExplainer, setShowExplainer] = useState(false);
 
