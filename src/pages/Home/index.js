@@ -14,23 +14,26 @@ export function Home() {
           <Link to='/exercises/2'>Exercise 2: useMemo()</Link>
         </li>
         <li>
-          <Link to='/exercises/3'>Exercise 3: useCallback()</Link>
+          <Link to='/exercises/3'>Exercise 3: React.memo()</Link>
         </li>
         <li>
-          <Link to='/exercises/4'>Exercise 4: import()</Link>
+          <Link to='/exercises/4'>Exercise 4: useCallback()</Link>
         </li>
         <li>
-          <Link to='/exercises/5'>Exercise 5: React.lazy()</Link>
+          <Link to='/exercises/5'>Exercise 5: import()</Link>
         </li>
         <li>
-          <Link to='/exercises/6'>Exercise 6: Suspense</Link>
+          <Link to='/exercises/6'>Exercise 6: React.lazy()</Link>
         </li>
         <li>
-          <Link to='/exercises/7'>
-            Exercise 7: When to implement optimizations
+          <Link to='/exercises/7'>Exercise 7: Suspense</Link>
+        </li>
+        <li>
+          <Link to='/exercises/8'>
+            Exercise 8: When to implement optimizations
           </Link>
         </li>
-        <li>Exercise 8: Review</li>
+        <li>Exercise 9: Review</li>
       </ul>
     </div>
   );
