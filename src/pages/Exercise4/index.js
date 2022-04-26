@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import { GraphPoint } from './GraphPoint';
 import './styles.css';
 
-export function Exercise4() {
+export const Exercise4 = () => {
   const [showExplainer, setShowExplainer] = useState(false);
 
   function setGraphPointOn() {
@@ -14,7 +14,7 @@ export function Exercise4() {
   return (
     <div className='container'>
       <Link to='/'>← Back to Home</Link>
-      <h1>Exercise 4: useCallback()</h1>
+      <h1>Exercise 4: Memoizing Functions</h1>
       <div className='e3-container'>
         <div className='e3-header'>
           <div>
@@ -42,4 +42,4 @@ export function Exercise4() {
       </div>
     </div>
   );
-}
+};

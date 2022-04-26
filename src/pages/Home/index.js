@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import './styles.css';
 
-export function Home() {
+export const Home = () => {
   return (
     <div className='container'>
       <h1>Advanced React: Optimization Lesson</h1>
@@ -11,30 +11,25 @@ export function Home() {
       <ul className='home-list'>
         <li>Exercise 1: Introduction</li>
         <li>
-          <Link to='/exercises/2'>Exercise 2: useMemo()</Link>
+          <Link to='/exercises/2'>Exercise 2: Memoizing Values</Link>
         </li>
         <li>
-          <Link to='/exercises/3'>Exercise 3: React.memo()</Link>
+          <Link to='/exercises/3'>Exercise 3: Memoizing Components</Link>
         </li>
         <li>
-          <Link to='/exercises/4'>Exercise 4: useCallback()</Link>
+          <Link to='/exercises/4'>Exercise 4: Memoizing Functions</Link>
         </li>
         <li>
-          <Link to='/exercises/5'>Exercise 5: import()</Link>
+          <Link to='/exercises/5'>Exercise 5: Code Splitting Modules</Link>
         </li>
         <li>
-          <Link to='/exercises/6'>Exercise 6: React.lazy()</Link>
+          <Link to='/exercises/6'>Exercise 6: Code Splitting Components</Link>
         </li>
         <li>
           <Link to='/exercises/7'>Exercise 7: Suspense</Link>
         </li>
-        <li>
-          <Link to='/exercises/8'>
-            Exercise 8: When to implement optimizations
-          </Link>
-        </li>
-        <li>Exercise 9: Review</li>
+        <li>Exercise 8: Review</li>
       </ul>
     </div>
   );
-}
+};

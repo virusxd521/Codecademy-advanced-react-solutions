@@ -4,13 +4,13 @@ import { Link } from 'react-router-dom';
 import { GraphPoint } from './GraphPoint';
 import './styles.css';
 
-export function Exercise3() {
+export const Exercise3 = () => {
   const [showExplainer, setShowExplainer] = useState(false);
 
   return (
     <div className='container'>
       <Link to='/'>← Back to Home</Link>
-      <h1>Exercise 3: React.memo()</h1>
+      <h1>Exercise 3: Memoizing Components</h1>
       <div className='e3-container'>
         <div className='e3-header'>
           <div>
@@ -38,4 +38,4 @@ export function Exercise3() {
       </div>
     </div>
   );
-}
+};

@@ -1,7 +1,7 @@
 import { useMemo } from 'react';
 import { checkIfPrime } from './helpers';
 
-export function IsPrime(props) {
+export const IsPrime = (props) => {
   const { number, showExplainer } = props;
   const isPrime = useMemo(() => checkIfPrime(number), [number]);
 
@@ -19,4 +19,4 @@ export function IsPrime(props) {
       )}
     </div>
   );
-}
+};

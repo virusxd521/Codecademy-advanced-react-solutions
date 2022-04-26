@@ -4,14 +4,14 @@ import { IsPrime } from './IsPrime';
 
 import './styles.css';
 
-export function Exercise2() {
+export const Exercise2 = () => {
   const [number, setNumber] = useState(8191);
   const [showExplainer, setShowExplainer] = useState(false);
 
   return (
     <div className='container'>
       <Link to='/'>← Back to Home</Link>
-      <h1>Exercise 2: useMemo()</h1>
+      <h1>Exercise 2: Memoizing Values</h1>
       <div className='e2-container'>
         <div className='e2-header'>
           <div>
@@ -35,4 +35,4 @@ export function Exercise2() {
       </div>
     </div>
   );
-}
+};

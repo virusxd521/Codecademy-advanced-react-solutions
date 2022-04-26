@@ -1,6 +1,6 @@
 import { checkIfPrime } from './helpers';
 
-export function IsPrime(props) {
+export const IsPrime = (props) => {
   const { number, showExplainer } = props;
   const isPrime = checkIfPrime(number);
 
@@ -18,4 +18,4 @@ export function IsPrime(props) {
       )}
     </div>
   );
-}
+};

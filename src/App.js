@@ -4,7 +4,7 @@ import { Exercise2 } from './pages/Exercise2';
 import { Exercise3 } from './pages/Exercise3';
 import { Exercise4 } from './pages/Exercise4';
 
-function App() {
+const App = () => {
   return (
     <Router>
       <Routes>
@@ -15,6 +15,6 @@ function App() {
       </Routes>
     </Router>
   );
-}
+};
 
 export default App;

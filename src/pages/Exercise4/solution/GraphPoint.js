@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 
 import './styles.css';
 
-export const GraphPoint = React.memo(function GraphPoint(props) {
+export const GraphPoint = React.memo((props) => {
   const { setGraphPointOn } = props;
   const [on, setOn] = useState(false);
 
