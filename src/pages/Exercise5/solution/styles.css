@@ -1,4 +1,4 @@
-.e6-container {
+.e5-container {
   background-color: #3b6064;
   border: 1px solid #3b6064;
   border-radius: 0.5rem;
@@ -9,23 +9,23 @@
   overflow: hidden;
 }
 
-.e6-content-container {
+.e5-content-container {
   display: flex;
   flex-direction: column;
   padding: 2rem;
 }
 
-.e6-container img {
+.e5-container img {
   height: 120px;
   width: 120px;
   margin: 0 auto 1rem;
 }
 
-.e6-container h1 {
+.e5-container h1 {
   margin-bottom: 2rem;
 }
 
-.e6-container button {
+.e5-container button {
   background-color: #364958;
   border: none;
   color: #c9e4ca;
@@ -37,11 +37,11 @@
   cursor: pointer;
 }
 
-.e6-container button:hover {
+.e5-container button:hover {
   background-color: #212d37;
 }
 
-.e6-details {
+.e5-details {
   background-color: #c9e4ca;
   color: #364958;
   /* border-radius: 0 0 0.5rem 0.5rem; */

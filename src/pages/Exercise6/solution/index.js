@@ -1,8 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Details from './Details';
 
 import './styles.css';
+
+const Details = React.lazy(() => import('./Details'));
 
 export const Exercise6 = () => {
   return (

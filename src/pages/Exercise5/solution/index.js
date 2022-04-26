@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import moment from 'moment';
 
 import './styles.css';
 
@@ -9,9 +8,10 @@ export const Exercise5 = () => {
   const [value, setValue] = useState('idle');
 
   async function onClick() {
-    const reservationDateAndTime = moment('2022-04-26T23:30:47.958Z').format(
-      'MM/D/YYYY h:mmA'
-    );
+    const moment = await import('moment');
+    const reservationDateAndTime = moment
+      .default('2022-04-26T23:30:47.958Z')
+      .format('MM/D/YYYY h:mmA');
     setValue(reservationDateAndTime);
     setDetailsVisible(!detailsVisible);
   }
