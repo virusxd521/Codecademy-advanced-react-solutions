@@ -6,10 +6,10 @@ import './styles.css';
 
 export const Exercise5 = () => {
   const [detailsVisible, setDetailsVisible] = useState(false);
-  const [value, setValue] = useState('idle');
+  const [value, setValue] = useState('N/A');
 
   async function onClick() {
-    const reservationDateAndTime = moment('2022-04-26T23:30:47.958Z').format(
+    const reservationDateAndTime = moment('2022-04-26T23:30:00.000Z').format(
       'MM/D/YYYY h:mmA'
     );
     setValue(reservationDateAndTime);

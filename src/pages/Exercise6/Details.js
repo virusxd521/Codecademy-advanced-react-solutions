@@ -1,10 +1,11 @@
-import moment from 'moment';
+import { format } from 'date-fns';
 
 import './styles.css';
 
 const Details = (props) => {
-  const reservationDateAndTime = moment('2022-04-26T23:30:47.958Z').format(
-    'MM/D/YYYY h:mmA'
+  const reservationDateAndTime = format(
+    new Date('2022-04-26T23:30:00.000Z'),
+    'MM/d/yyyy h:mma'
   );
 
   return (
