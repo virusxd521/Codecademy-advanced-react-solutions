@@ -1,5 +1,6 @@
 import React, { Suspense } from 'react';
 import { Link } from 'react-router-dom';
+import { Loader } from './Loader';
 
 import './styles.css';
 
@@ -20,7 +21,7 @@ export const Exercise7 = () => {
           <img src={require('./logo.png')} alt='Restaurant logo' />
           <h1>Your reservation is confirmed.</h1>
         </div>
-        <Suspense fallback={<p>Loading...</p>}>
+        <Suspense fallback={<Loader />}>
           <Details />
         </Suspense>
       </div>
