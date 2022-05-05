@@ -7,7 +7,7 @@ import './styles.css';
 export const Exercise4 = () => {
   const [showExplainer, setShowExplainer] = useState(false);
 
-  const setGraphPointOn = useCallback(function setGraphPointOn() {
+  const setGraphPointOn = useCallback(() => {
     return Math.random() > 0.8;
   }, []);
 
